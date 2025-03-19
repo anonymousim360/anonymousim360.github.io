@@ -485,12 +485,12 @@ function init() {
 
                 // load feature texture
                 // let tex0 = new THREE.TextureLoader().load(BASE+name+'/feat0_'+cas.toString()+'.jpg', object => {
-                let tex0 = new THREE.TextureLoader().load(BASE+name+'/texture_kd.jpg', object => {
+                let tex0 = new THREE.TextureLoader().load(BASE+name+'/texture_kd.png', object => {
                     console.log('[INFO] loaded diffuse tex:', name, cas);
                     updateProgressBar(name, cas * 3 + 1);
                 });
                 // let tex1 = new THREE.TextureLoader().load(BASE+name+'/feat1_'+cas.toString()+'.jpg', object => {
-                let tex1 = new THREE.TextureLoader().load(BASE+name+'/texture_ks.jpg', object => {
+                let tex1 = new THREE.TextureLoader().load(BASE+name+'/texture_ks.png', object => {
                     console.log('[INFO] loaded specular tex:', name, cas);
                     updateProgressBar(name, cas * 3 + 2);
                 });
